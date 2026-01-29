@@ -30,10 +30,11 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  image(bgImg, 0, 0, width, height);
+  // image(bgImg, 0, 0, width, height);
 }
 
 function draw() {
+    image(bgImg, 0, 0, width, height);
     textAlign(CENTER, CENTER);
     let txtSize = width * 0.04;
     textSize(txtSize);    
@@ -41,7 +42,6 @@ function draw() {
     fill(150, 10, 10);        // text color (RGB)
 
     text(move, width / 2, height / 2);
-    text
 }
 
 function mousePressed() {
