@@ -9,14 +9,14 @@ let bgImg;
 let bgImg2;
 
 let moves = [
-  "Classic Milk Tea with Boba",
+  "Classic Milk Tea\nwith Boba",
   "Brown Sugar Boba Milk",
   "Jasmine Green Milk Tea",
-  "Matcha Milk Tea with Red Bean",
+  "Matcha Milk Tea\nwith Red Bean",
   "Oolong Milk Tea",
   "Passion Fruit Green Tea",
-  "Winter Melon Tea with Grass Jelly",
-  "Strawberry milk tea with Salted Cheese Foam",
+  "Winter Melon Tea\nwith Grass Jelly",
+  "Strawberry Milk Tea\nwith Salted\nCheese Foam",
   "Mango sago boba",
 ];
 
@@ -36,7 +36,7 @@ function setup() {
 function draw() {
     image(bgImg, 0, 0, width, height);
     textAlign(CENTER, CENTER);
-    let txtSize = width * 0.04;
+    let txtSize = width * 0.05;
     textSize(txtSize);    
     textFont('Overpass Mono');  
     fill(150, 10, 10);        // text color (RGB)
