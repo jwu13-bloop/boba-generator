@@ -30,11 +30,11 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  // image(bgImg, 0, 0, width, height);
+  image(bgImg, 0, 0, width, height);
 }
 
 function draw() {
-    image(bgImg, 0, 0, width, height);
+    // image(bgImg, 0, 0, width, height);
     textAlign(CENTER, CENTER);
     let txtSize = width * 0.05;
     textSize(txtSize);    
@@ -54,7 +54,7 @@ function mousePressed() {
     // console.log(indexPosition);
     moves.splice(indexPosition, 1);
   } else {
-    move = "maybe you should try coffee instead :("
+    move = "maybe you should\ntry coffee instead :("
   }
 
   console.log(moves.length);
