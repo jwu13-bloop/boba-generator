@@ -35,10 +35,9 @@ function setup() {
 
 function draw() {
     textAlign(CENTER, CENTER);
-    let txtSize = width * 0.02; // 6% of canvas width
+    let txtSize = width * 0.04;
     textSize(txtSize);    
     textFont('Overpass Mono');  
-    textWidth(8);       // font family
     fill(150, 10, 10);        // text color (RGB)
 
     text(move, width / 2, height / 2);
